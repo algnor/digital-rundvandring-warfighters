@@ -18,6 +18,6 @@ Visa en visualiserad bild av hur skrapan såg ut förr i tiden och kunna byta ti
 
 # Fördelning av arbete
 * Erjon: Ledare,  
-* Anna: 
-* Sebastian:  
+* Anna: Unity
+* Sebastian:  Unity
 * Algot: Blender 
