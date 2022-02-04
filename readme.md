@@ -14,7 +14,7 @@ Visa en visualiserad bild av hur skrapan såg ut förr i tiden och kunna byta ti
 2. Modellera versionerna av skrapan och lägga in de i en scen 
 3. Få in modellerna i AR
 4. Fixa ux 
-5.Fixa state manager så att fi kan välja vilken modell som visas på skärmen 
+5. Fixa state manager så att fi kan välja vilken modell som visas på skärmen 
 
 # Fördelning av arbete
 * Erjon: Ledare,  
