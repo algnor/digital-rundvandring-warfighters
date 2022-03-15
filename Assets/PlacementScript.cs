@@ -8,10 +8,13 @@ using System;
 public class PlacementScript : MonoBehaviour
 {
     public GameObject placementIndicator;
+    public GameObject Skrapan;
    
     private Pose placementPose;
     private ARRaycastManager raycastManager;
     private bool PlacementPoseIsValid = false;
+
+    List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     void Start()
     {
@@ -40,7 +43,7 @@ public class PlacementScript : MonoBehaviour
     private void UpdatePlacementPose()
     {
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-        var hits = new List<ARRaycastHit>();
+        
         raycastManager.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.FeaturePoint);
 
         PlacementPoseIsValid = hits.Count > 0;
@@ -53,5 +56,15 @@ public class PlacementScript : MonoBehaviour
 
             placementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }
+    }
+    public void Place()
+    {
+       if (hits.Count > 0)
+       {
+           GameObject.Instantiate(Skrapan, placementPose.position, Quaternion.Euler(0, 0, 270));
+
+       }
+        
+
     }
 }
