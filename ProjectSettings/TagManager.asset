@@ -6,6 +6,7 @@ TagManager:
   tags:
   - placeBTN
   - building
+  - switchBTN
   layers:
   - Default
   - TransparentFX
