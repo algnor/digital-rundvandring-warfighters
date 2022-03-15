@@ -34,25 +34,4 @@ public  class SceneSwitcher : MonoBehaviour
 
         yearIndex += value;
     }
-    public void LoadSceneOnTop()
-    {
-        SceneManager.UnloadSceneAsync(SceneManager.GetSceneByBuildIndex(0));
-        SceneManager.LoadScene("test1", LoadSceneMode.Additive);
-        int n = SceneManager.sceneCount;
-        
-        
-            
-        
-
-
-    }
- 
-    public static void UnLoadSceneOnTop(Scene scene)
-    {
-        int n = SceneManager.sceneCount;
-        if (n > 1)
-        {
-            SceneManager.UnloadSceneAsync(scene.ToString());
-        }
-    }
 }

@@ -23,6 +23,7 @@ public class PlacementScript : MonoBehaviour
     private GameObject[] switchButtons;
 
     private bool SkrapanHasBeenPlaced = false;
+    private bool SkrapanHasBeenChanged = false;
 
     void Start()
     {
@@ -47,7 +48,7 @@ public class PlacementScript : MonoBehaviour
 
     private void Update()
     {
-        if (SkrapanHasBeenPlaced)
+        if (SkrapanHasBeenPlaced && GameObject.FindGameObjectWithTag("building") != null)
         {
             currentSkrapan = GameObject.FindGameObjectWithTag("building");
         }
@@ -109,12 +110,18 @@ public class PlacementScript : MonoBehaviour
 
     public void ChangeSkrapan(int numberInput)
     {
+
         Debug.Log(YearIndex);
+        if (!SkrapanHasBeenChanged)
+        {
+            Destroy(GameObject.FindGameObjectWithTag("building"));
+        }
         if (YearIndex > Skrapor.Length - 1) YearIndex = 0;
         if (YearIndex == -1) YearIndex = Skrapor.Length - 1;
         oldSkrapan = currentSkrapan;
         currentSkrapan = Instantiate(Skrapor[YearIndex], currentSkrapan.transform.position, currentSkrapan.transform.rotation, ARSessionOrigin.transform);
         Destroy(oldSkrapan);
         YearIndex += numberInput;
+        SkrapanHasBeenChanged = true;
     }
 }
