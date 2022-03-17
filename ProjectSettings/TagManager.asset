@@ -7,6 +7,7 @@ TagManager:
   - placeBTN
   - building
   - switchBTN
+  - bird
   layers:
   - Default
   - TransparentFX
