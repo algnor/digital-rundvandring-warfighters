@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 8995112794897543823}
   m_Layer: 0
   m_Name: skrapan-innan (2)
-  m_TagString: Untagged
+  m_TagString: building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
