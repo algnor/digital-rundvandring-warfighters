@@ -51,27 +51,27 @@ public class PlacementScript : MonoBehaviour
         {
             case 0:
                 {
-                    yearText.SetText("1900 e.f.t");
+                    yearText.SetText("År 1900");
                     break;
                 }
             case 1:
                 {
-                    yearText.SetText("1981 e.f.t");
+                    yearText.SetText("År 1981");
                     break;
                 }
             case 2:
                 {
-                    yearText.SetText("1985 e.f.t");
+                    yearText.SetText("År 1985");
                     break;
                 }
             case 3:
                 {
-                    yearText.SetText("2022 e.f.t");
+                    yearText.SetText("År 2022");
                     break;
                 }
             case 4:
                 {
-                    yearText.SetText("2100 e.f.t");
+                    yearText.SetText("År 2100");
                     break;
                 }
         }
@@ -111,7 +111,7 @@ public class PlacementScript : MonoBehaviour
     }
     public void Place()
     {
-       if (hits.Count > 0 || true)
+       if (hits.Count > 0)
        {
            GameObject.Instantiate(Skrapor[0], placementPose.position, Quaternion.Euler(0, 0, 0), ARSessionOrigin.transform);
            SkrapanHasBeenPlaced = true;

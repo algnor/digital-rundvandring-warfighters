@@ -171,9 +171,9 @@ MonoBehaviour:
   Skrapan: {fileID: 8995112794897543822, guid: 7dd238f05af21c4428ddcea388f9350b, type: 3}
   Skrapor:
   - {fileID: 8995112794897543822, guid: 7dd238f05af21c4428ddcea388f9350b, type: 3}
-  - {fileID: 9095254445123987319, guid: 3b57501e03fe0f34ab9ec4cc2b464e94, type: 3}
-  - {fileID: 4561155127192709293, guid: 9cd9122936493fd409a1e6cd23175822, type: 3}
-  - {fileID: 6861356612589394863, guid: 60725d2acf08e73438557d2cc9d72c39, type: 3}
+  - {fileID: 1695634081192103802, guid: 3b57501e03fe0f34ab9ec4cc2b464e94, type: 3}
+  - {fileID: 6074932759449441273, guid: 9cd9122936493fd409a1e6cd23175822, type: 3}
+  - {fileID: 1916704685376760269, guid: 60725d2acf08e73438557d2cc9d72c39, type: 3}
   - {fileID: 3584621525286442968, guid: ad12923ffab4cac4c9b9e3c3ccddb9a9, type: 3}
   YearIndex: 0
   yearText: {fileID: 1099945476}
@@ -6257,7 +6257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PLACE
+  m_text: PLACERA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
