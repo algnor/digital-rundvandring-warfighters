@@ -1,11 +1,7 @@
 # Digital rundvandring Warfighters
-## Våran idè
-Visa en visualiserad bild av hur skrapan såg ut förr i tiden och kunna byta tidsperiod. 1980-2022, kanske lite mellan 20 och 80 talet också.
+# Våran idè
+Visa en visualiserad bild av hur skrapan såg ut förr i tiden och kunna byta tidsperiod. 1900-2022, kanske lite mellan 20 och 80 talet också.
 
-## Extra idéer
-* Kunna uppgradera byggnader och kunna äga olika byggnader/ställen i AR. 
-* Fiska i svartån. 
-* Hitta gamla föremål som ska fiskas upp från svartån. Göra en mockup för hur designen ska se ut för spelet. Lägga in föremålen i unity AR. Göra animationen för att fiska.  
 
 
 # Planering
@@ -16,8 +12,7 @@ Visa en visualiserad bild av hur skrapan såg ut förr i tiden och kunna byta ti
 4. Fixa ux 
 5. Fixa state manager så att fi kan välja vilken modell som visas på skärmen 
 
-# Fördelning av arbete
-* Erjon: Ledare,  
-* Anna: Unity
-* Sebastian:  Unity
-* Algot: Blender 
+# Extra info
+
+Det finns fem versioner av skrapan att titta på i AR, en förbättring är att göra modellerna bättre och se till att positionerna av skaporna är mer exakta.
+Skulle okcså kunna lägga till fakta rutor och info om de olika årtalen och även lägga mer detaljer på animationer t.ex bilar och bussar.
