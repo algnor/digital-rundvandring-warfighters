@@ -1,3 +1,4 @@
+## This is a School project for ABB gymnasiet
 # Digital rundvandring Warfighters
 # Våran idè
 Visa en visualiserad bild av hur skrapan såg ut förr i tiden och kunna byta tidsperiod. 1900-2022, kanske lite mellan 20 och 80 talet också.
